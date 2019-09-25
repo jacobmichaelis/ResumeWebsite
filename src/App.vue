@@ -6,13 +6,13 @@
         <!-- <span class="font-weight-light"> MATERIAL DESIGN</span> -->
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn flat href="" target="_blank">
+      <!-- <v-btn flat href="" target="_blank">
         <span class="mr-2">Resume Builder</span>
-      </v-btn>
+      </v-btn> -->
     </v-toolbar>
 
     <v-content>
-      <Home/>
+      <router-view/>
     </v-content>
   </v-app>
 </template>
