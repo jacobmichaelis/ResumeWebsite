@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>Jacob Michaelis</span>
         <!-- <span class="font-weight-light"> MATERIAL DESIGN</span> -->
@@ -9,7 +9,7 @@
       <!-- <v-btn flat href="" target="_blank">
         <span class="mr-2">Resume Builder</span>
       </v-btn> -->
-    </v-toolbar>
+    </v-app-bar>
 
     <v-content>
       <router-view/>
